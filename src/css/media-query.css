@@ -1,0 +1,41 @@
+@media (min-width: 768px) {
+
+    main {
+        max-width: 100vw;
+    }
+
+    section {
+        width: 750px;
+        display: flex;
+    }
+
+    article {
+        height: 350px;
+    }
+
+    article h1, p, img {
+        margin-bottom: 20px;
+    }
+
+    article > img {
+        width: 30%;
+    }
+
+    article p {
+        font-size: 14px;
+    }
+
+    article#sedans {
+        border-radius: 8px 0 0 8px;
+    }
+
+    article#luxury {
+        border-radius: 0 8px 8px 0;
+    }
+
+    button {
+        width: 20px;
+        margin-top: 40px;
+    }
+
+}
